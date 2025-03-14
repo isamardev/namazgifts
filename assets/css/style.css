@@ -340,13 +340,13 @@ header ul.social-media li {
     position: relative;
 }
 header ul.social-media li:not(:last-child):after {
-    top: -6px;
+    top: -4px;
     content: "";
     width: 1px;
     height: 14px;
     position: absolute;
     background-color: white;
-    right: -6px;
+    right: -5px;
 }
 header ul.social-media i:hover {
     color: var(--theme-colour);
@@ -702,7 +702,7 @@ li.menu-item-has-children.active {
 .slider-home-1 button.owl-dot{
     width: 45px;
     height: 3px;
-    background-color: var(--theme-colour);
+    background-color: green;
     opacity: .4;
     margin-left: 10px;
 }
@@ -711,7 +711,7 @@ li.menu-item-has-children.active {
     width: 45px;
     opacity: 1;
     height: 3px;
-    background-color: var(--theme-colour);
+    background-color: green;
 }
 .owl-theme .owl-dots .owl-dot span {
     display: none !important;
@@ -1559,13 +1559,13 @@ ul.list li:before {
 }
 .ayat {
     padding: 51px;
-    border: 3px solid var(--theme-colour);
+    border: 3px solid green;
     text-align: center;
-    background-color: #fff7dc;
+    background-color: #d7ffcc;
     padding-bottom: 40px;
     padding-top: 64px;
     border-radius: 227px;
-    border-top-right-radius: 0;
+   
 }
 .ayat h4 {
     padding-top: 20px;
@@ -1586,7 +1586,7 @@ ul.list li:before {
     margin: auto;
 }
 .slider-ayat .owl-dots {
-    left: 36%;
+    left: 43%;
     position: absolute;
     bottom: -40px;
 }
@@ -1987,7 +1987,7 @@ ul.social-media {
     font-family: var(--common-font);
 }
 ul.social-media li {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 ul.social-media i {
     width: 48px;
@@ -2977,7 +2977,7 @@ footer.two .wpo-lower-footer {
 .widget-title  ul.social-media {
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 .widget-title ul.social-media li {
     width: auto;
@@ -4054,7 +4054,7 @@ ul.star.regular i {
     padding: 50px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    background-color: #fcf3d1;
+    background-color: rgb(188, 231, 188);
 }
 a.heading{
     width: 100%;
@@ -4467,3 +4467,141 @@ ul.photo-gallery figure:before,.mobile-nav > ul > li.menu-item-has-children:befo
     border-radius: 50px;
   
 }
+
+
+.Subscribe-btn{
+    background-color: #FBC50B;
+    color: darkgreen;
+    text-transform: capitalize;
+    border-radius: 50px;
+    color: #000 !important;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 20px 50px;
+    position: relative;
+    font-weight: 700;
+    text-align: center;
+    white-space: pre;
+    z-index: 1;
+    border: 0;
+    padding: 20px 43px;
+    border-radius: 55px;
+    color: #000;
+    font-weight: bold;
+}
+
+.Subscribe-btn,.btn-new:hover{
+    background-color: white;
+}
+
+.newsubmit{
+    background-color: #007d3a !important;
+    color: white !important;
+}
+
+.newsubmit:hover{
+    background-color: #fbc50b !important;
+    /* color: #007d3a !important; */
+}
+
+
+
+
+
+
+/* calender */
+
+
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  
+  margin-top: 40px;
+  }
+  .wrapper header{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+  }
+  header .icons{
+    display: flex;
+  }
+  header .icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+  }
+  .icons span:last-child{
+    margin-right: -10px;
+  }
+  header .icons span:hover{
+    background: #f2f2f2;
+  }
+  header .current-date{
+    font-size: 1.45rem;
+    font-weight: 500;
+  }
+  .calendar{
+    padding: 20px;
+  }
+  .calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+  .calendar .days{
+    margin-bottom: 20px;
+  }
+  .calendar li{
+    color: #333;
+    width: calc(100% / 32);
+  
+    font-size: 10px;
+  }
+  .calendar .weeks li{
+    font-weight: 500;
+    cursor: default;
+  
+    font-size: 10px;
+  }
+  .calendar .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+  }
+  .days li.inactive{
+    color: #aaa;
+  }
+  .days li.active{
+    color: #fff;
+  }
+  .days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .days li.active::before{
+    background: #d6d8d7;
+    color: white !important;
+  }
+  .days li:not(.active):hover::before{
+    background: #f2f2f2;
+  }
