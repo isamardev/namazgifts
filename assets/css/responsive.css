@@ -991,8 +991,9 @@
 }
 @media(max-width: 768px){
   .nav-link{
-    width: 100% !important ;
-    padding: 5px !important;
+ padding: 5px !important;
+ width: 100%;
+ 
   }
 
   .fortextalign{
