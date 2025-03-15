@@ -992,7 +992,7 @@
 @media(max-width: 768px){
   .nav-link{
     width: 100% !important ;
-    padding: 10px !important;
+    padding: 5px !important;
   }
 
   .fortextalign{
