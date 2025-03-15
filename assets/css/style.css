@@ -2521,7 +2521,7 @@ li.timing-date {
     justify-content: center;
     border-radius: 50%;
 }
-/* .video a i:after {
+.video a i:after {
     border: 3px solid var(--theme-colour);
     width: 115px;
     height: 115px;
@@ -2533,8 +2533,8 @@ li.timing-date {
     border-radius: 50%;
     content: "";
     animation: video-button 5s infinite;
-} */
-/* @keyframes video-button {
+}
+@keyframes video-button {
     0% {
         transform: scale(1.2);
     }
@@ -2544,8 +2544,8 @@ li.timing-date {
     100% {
         transform: scale(1.2);
     }
-} */
-/* .video a i svg {
+}
+.video a i svg {
     fill: #fff;
     margin: 0;
 }
@@ -2564,7 +2564,7 @@ li.timing-date {
     background-repeat: no-repeat;
     mix-blend-mode: difference;
     bottom: 1%;
-} */
+}
 /* 45. travel-package */
 .travel-package {
     background-color: #fcf3d1;
