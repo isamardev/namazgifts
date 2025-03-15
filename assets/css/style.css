@@ -1731,11 +1731,12 @@ ul.list li:before {
     padding-bottom: 40px;
     font-size: 20px;
     color: #fff;
+    text-align: justify;
 }
 .join-our-community {
     position: relative;
-    border-radius: 500px;
-    border-top-left-radius: 0;
+    border-radius: 20px;
+
     padding: 105px 0;
     text-align: center;
 }

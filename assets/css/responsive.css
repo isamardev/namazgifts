@@ -378,6 +378,7 @@
   
   .forResposive1{
     margin-left: 0px !important;
+    /* text-align: justify !important; */
 
   }
 	.two-bar:before,.two-bar:after,.top-bar {
@@ -708,6 +709,7 @@
 	.gap {
     padding-top: 80px;
     padding-bottom: 80px;
+
 	}
   .mb-80 {
     margin-bottom: 40px;
@@ -988,9 +990,16 @@
 	}
 }
 @media(max-width: 768px){
+  .forreview{
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+  }
+  .forsize{
+    font-size: 37px !important;
+  }
   .gap {
     padding: 0 !important;
-    margin: 0px !important;
+    margin: 70px 0px 0px 0px !important;
   }
   .forabout{
     padding: 0 !important;
@@ -1000,8 +1009,8 @@
     margin-bottom: 50px;
   }
   .forResWidth{
-    width: 40% !important;
-    margin-left: 100px !important;
+    width: 70% !important;
+    margin-left: 40px !important;
   }
   .forREsSize{
     font-size: 22px !important;
@@ -1010,7 +1019,7 @@
     height: 7vh !important;
   }
   .fortextres{
-    line-height: 50px;
+    line-height: 50px !important;
   }
   .hero-2-image{
     height: 30vh !important;
@@ -1628,6 +1637,6 @@
   
   .navigating-life2 {
       display: block; /* Mobile wali div show hogi */
-      
+      margin: 50px !important;
   }
 }
