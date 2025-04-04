@@ -756,7 +756,7 @@
   .video a i {
     width: 54px;
     height: 54px;
-    margin-top: 24px;
+    margin-top: 210px;
 
   }
   .audio-ayat #wrapper {
@@ -825,7 +825,7 @@
     margin-top: 40px;
   }
   .video {
-    margin-top: -320px;
+    margin-top: -750px;
     margin-bottom: 40px;
   }
 	.listen-holy .heading.two {
@@ -1412,8 +1412,8 @@
 	.navigating-life .video i {
     width: 39px;
     height: 39px;
-    margin-left: 11px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 	}
   .welcome-to-ibadat-established span {
     font-size: 12px;
@@ -1427,6 +1427,7 @@
   }
 	.navigating-life .video a {
     font-size: 14px;
+    
   }
   .audio-ayat .owl-nav {
     position: relative;
@@ -1656,3 +1657,18 @@
   }
 }
 
+  /* For larger screens (like desktops) */
+  @media (min-width: 992px) {
+    .custom-iframe {
+      width: 560px;
+      height: 315px;
+    }
+  }
+
+  /* For smaller screens (tablets, phones) */
+  @media (max-width: 991.98px) {
+    .custom-iframe {
+      width: 100%;
+      height: auto;
+    }
+  }
